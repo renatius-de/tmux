@@ -1,0 +1,28 @@
+# {{{ bind key
+bind-key x run-shell "tmux new-window -t :20 -n Root 'su -l' || tmux new-window -a -t :20 -n Root 'su -l'"
+bind-key X split-window "su -l"
+
+bind-key T new-window -k -c "${HOME}" -t :1 -n Logs 'multitail --retry-all -cs /var/log/messages'
+bind-key t new-window -k -c "${HOME}" -t :2 -n (h)top htop
+bind-key f new-window -k -c "${HOME}" -t :3 -n FileManger mc
+#}}}
+
+# {{{ start session
+new-session -A -n Logs -s Main -x 185 -y 50 'multitail --retry-all -cs /var/log/messages'
+new-window -c "${HOME}" -t :2 -n (h)top htop
+new-window -c "${HOME}" -t :3 -n FileManger mc
+new-window -c "${HOME}" -t :4 -n SQL mysql
+new-window -c "${HOME}" -n Shell
+new-window -c "${HOME}" -n Shell
+new-window -c "${HOME}" -n Shell
+new-window -c /var/www/localhost/htdocs/fakturierung -n Fakturierung
+new-window -c /var/www/localhost/htdocs/fakturierung -n Fakturierung
+new-window -c /var/www/localhost/htdocs/fakturierung -n Fakturierung
+new-window -c /var/www/localhost/htdocs/fakturierung -n Fakturierung
+new-window -c /var/www/localhost/htdocs/fakturierung -n Fakturierung
+
+select-window -t :2
+select-window -t :1
+#}}}
+
+# vim: filetype=tmux textwidth=80 foldmethod=marker
