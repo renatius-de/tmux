@@ -12,9 +12,9 @@ new-session -A -n Logs -s Main -x 185 -y 50 'multitail --retry-all -cs /var/log/
 new-window -c "${HOME}" -t :2 -n (h)top htop
 new-window -c "${HOME}" -t :3 -n FileManger mc
 new-window -c "${HOME}" -t :4 -n SQL mysql
-new-window -c "${HOME}" -n Shell
-new-window -c "${HOME}" -n Shell
-new-window -c "${HOME}" -n Shell
+new-window -c "${HOME}"
+new-window -c "${HOME}"
+new-window -c "${HOME}"
 new-window -c /var/www/localhost/htdocs/fakturierung -n Fakturierung
 new-window -c /var/www/localhost/htdocs/fakturierung -n Fakturierung
 new-window -c /var/www/localhost/htdocs/fakturierung -n Fakturierung
