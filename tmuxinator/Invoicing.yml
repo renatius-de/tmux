@@ -1,0 +1,43 @@
+# ~/.tmuxinator/Invoicing.yml
+
+name: Invoicing
+root: ~/repositories/projects/invoicing/
+
+windows:
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - workon Invoicing && vim
+            - workon Invoicing
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - workon Invoicing && vim
+            - workon Invoicing
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - workon Invoicing && vim
+            - workon Invoicing
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - workon Invoicing && vim
+            - workon Invoicing
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - workon Invoicing && vim
+            - workon Invoicing
+    - Shell:
+    - Shell:
+    - Shell:
+    - Shell:
+    - Vagrant:
+        layout: even-vertical
+        panes:
+            - cd vagrant
+            - cd vagrant
+            - cd vagrant && vagrant up
+    - Composer:
+        - git fm && exit
