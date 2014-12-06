@@ -1,0 +1,43 @@
+# ~/.tmuxinator/Soap.yml
+
+name: Soap
+root: ~/repositories/cbn/soap/
+
+windows:
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim
+            -
+    - Shell:
+    - Shell:
+    - Shell:
+    - Shell:
+    - Vagrant:
+        layout: even-vertical
+        panes:
+            - cd vagrant
+            - cd vagrant
+            - cd vagrant && vagrant up
+    - Composer:
+        - git fm && getComposer && exit
