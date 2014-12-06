@@ -1,0 +1,43 @@
+# ~/.tmuxinator/update.yml
+
+name: update
+root: ~/repositories/cbn/update/
+
+windows:
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim
+            -
+    - Shell:
+    - Shell:
+    - Shell:
+    - Shell:
+    - Vagrant:
+        layout: even-vertical
+        panes:
+            - cd vagrant
+            - cd vagrant
+            - cd vagrant && vagrant up
+    - Composer:
+        - git fm && getComposer && exit
