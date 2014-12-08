@@ -12,32 +12,31 @@ windows:
     - Editor:
         layout: main-horizontal
         panes:
-            - workon Invoicing && vim
+            - workon Invoicing
             - workon Invoicing
     - Editor:
         layout: main-horizontal
         panes:
-            - workon Invoicing && vim
+            - workon Invoicing
             - workon Invoicing
     - Editor:
         layout: main-horizontal
         panes:
-            - workon Invoicing && vim
+            - workon Invoicing
             - workon Invoicing
     - Editor:
         layout: main-horizontal
         panes:
-            - workon Invoicing && vim
+            - workon Invoicing
             - workon Invoicing
     - Shell:
     - Shell:
     - Shell:
     - Shell:
     - Vagrant:
-        layout: even-vertical
+        layout: tiled
         panes:
-            - cd vagrant
-            - cd vagrant
             - cd vagrant && vagrant up
-    - Composer:
-        - git fm && exit
+            - cd vagrant
+            - cd vagrant
+            - git fm && git st
