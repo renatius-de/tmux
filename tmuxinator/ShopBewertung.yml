@@ -34,7 +34,7 @@ windows:
     - Shell:
     - Shell:
     - Vagrant:
-        layout: tiled
+        layout: even-vertical
         panes:
             - cd vagrant && vagrant up
             - cd vagrant
