@@ -7,7 +7,7 @@ windows:
     - Editor:
         layout: main-horizontal
         panes:
-            - vim
+            - vim -c "call ConfigureShopRocket()"
             -
     - Editor:
         layout: main-horizontal
@@ -38,5 +38,4 @@ windows:
         panes:
             - cd vagrant && vagrant up
             - cd vagrant
-            - cd vagrant
-            - git fm && git st && getComposer
+            - git fm && getComposer && exit
