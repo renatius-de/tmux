@@ -7,20 +7,20 @@ windows:
     - Web:
         layout: even-vertical
         panes:
-            - ssh cbn.web01
-            - ssh cbn.web02
+            -
+            -
     - App:
         layout: even-vertical
         panes:
-            - ssh cbn.app01
-            - ssh cbn.app02
+            -
+            -
     - DB:
         layout: even-vertical
         panes:
-            - ssh cbn.db01
-            - ssh cbn.db02
+            -
+            -
     - Misc:
         layout: even-vertical
         panes:
-            - ssh cbn.xray
+            -
             -
