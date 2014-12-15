@@ -7,7 +7,7 @@ windows:
     - Editor:
         layout: main-horizontal
         panes:
-            - vim -c "call ConfigureShopRocket()"
+            - vim -c "call ConfigureShoprocket()"
             -
     - Editor:
         layout: main-horizontal
