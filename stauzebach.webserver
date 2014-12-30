@@ -9,11 +9,7 @@ new-window -c "${HOME}" -t :2 -n FileManger mc
 new-window -c "${HOME}" -t :3 -n SQL mysql
 new-window -c "${HOME}"
 new-window -c "${HOME}"
-new-window -c /var/www/localhost/htdocs/fakturierung -n Fakturierung
-new-window -c /var/www/localhost/htdocs/fakturierung -n Fakturierung
-new-window -c /var/www/localhost/htdocs/fakturierung -n Fakturierung
-new-window -c /var/www/localhost/htdocs/fakturierung -n Fakturierung
-new-window -c /var/www/localhost/htdocs/fakturierung -n Fakturierung
+new-window -c "${HOME}"
 
 select-window -t :2
 select-window -t :1
