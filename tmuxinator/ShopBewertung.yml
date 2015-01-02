@@ -36,6 +36,6 @@ windows:
     - Vagrant:
         layout: even-vertical
         panes:
-            - cd vagrant
-            - cd vagrant
             - git fm && getComposer && exit
+            - cd vagrant
+            - cd vagrant
