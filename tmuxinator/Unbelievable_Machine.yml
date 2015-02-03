@@ -19,6 +19,11 @@ windows:
         panes:
             -
             -
+    - Xray:
+        layout: even-vertical
+        panes:
+            -
+            -
     - Misc:
         layout: even-vertical
         panes:
