@@ -1,6 +1,6 @@
 # ~/.tmuxinator/update.yml
 
-name: update
+name: Update
 root: ~/repositories/cbn/update/
 
 windows:
