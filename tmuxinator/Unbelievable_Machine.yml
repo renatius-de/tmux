@@ -24,6 +24,11 @@ windows:
         panes:
             -
             -
+    - PVEU:
+        layout: even-vertical
+        panes:
+            - cd ~/repositories/cbn/preisvergleich.eu
+            - cd ~/repositories/cbn/preisvergleich.eu
     - Misc:
         layout: even-vertical
         panes:
