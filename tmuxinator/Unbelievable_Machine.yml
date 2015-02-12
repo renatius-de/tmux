@@ -29,6 +29,16 @@ windows:
         panes:
             -
             -
+    - Fresno:
+        layout: even-vertical
+        panes:
+            -
+            -
+    - Puck:
+        layout: even-vertical
+        panes:
+            -
+            -
     - PVEU:
         layout: even-vertical
         panes:
