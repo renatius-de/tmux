@@ -1,0 +1,41 @@
+# ~/.tmuxinator/ShopRocket.yml
+
+name: ShopRocket
+root: ~/repositories/cbn/library/
+
+windows:
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim -c "call ConfigureLibrary()"
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Shell:
+    - Shell:
+    - Shell:
+    - Shell:
+    - Vagrant:
+        layout: even-vertical
+        panes:
+            - git fm && getComposer && exit
+            - cd vagrant
+            - cd vagrant
