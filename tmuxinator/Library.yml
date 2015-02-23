@@ -1,6 +1,6 @@
-# ~/.tmuxinator/ShopRocket.yml
+# ~/.tmuxinator/Library.yml
 
-name: ShopRocket
+name: Library
 root: ~/repositories/cbn/library/
 
 windows:
