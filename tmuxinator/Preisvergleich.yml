@@ -1,4 +1,4 @@
-# ~/.tmuxinator/ShopRocket.yml
+# ~/.tmuxinator/Preisvergleich.yml
 
 name: Preisvergleich
 root: ~/repositories/cbn/preisvergleich/
