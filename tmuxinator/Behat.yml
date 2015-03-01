@@ -33,9 +33,3 @@ windows:
     - Shell:
     - Shell:
     - Shell:
-    - Vagrant:
-        layout: even-vertical
-        panes:
-            - git fm && getComposer && exit
-            - cd vagrant
-            - cd vagrant
