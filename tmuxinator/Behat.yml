@@ -33,3 +33,7 @@ windows:
     - Shell:
     - Shell:
     - Shell:
+    - Shell:
+        layout: even-vertical
+        panes:
+            - git fm && getComposer && exit
