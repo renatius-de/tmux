@@ -29,10 +29,21 @@ windows:
         panes:
             -
             -
-    - Shell:
-    - Shell:
-    - Shell:
-    - Shell:
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
     - Shell:
         layout: even-vertical
         panes:
