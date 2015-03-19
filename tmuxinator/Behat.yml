@@ -7,7 +7,7 @@ windows:
     - Editor:
         layout: main-horizontal
         panes:
-            - vim -c "call Behat()"
+            - vim -c "call ConfigureBehat()"
             -
     - Editor:
         layout: main-horizontal
