@@ -1,6 +1,6 @@
 # ~/.tmuxinator/Behat.yml
 
-name: Behat
+name: BeHaT
 root: ~/repositories/cbn/behat/
 
 windows:
