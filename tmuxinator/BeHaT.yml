@@ -49,7 +49,7 @@ windows:
         panes:
             -
             -
-    - Shell:
-        layout: even-vertical
-        panes:
-            - git fm && getComposer && exit
+    # - Shell:
+    #     layout: even-vertical
+    #     panes:
+    #         - git fm && getComposer && exit
