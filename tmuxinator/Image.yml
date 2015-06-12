@@ -1,0 +1,57 @@
+# ~/.tmuxinator/Image.yml
+
+name: Image
+root: ~/repositories/cbn/preisvergleich-image/
+
+windows:
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim -c "call ConfigureImage()"
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Vagrant:
+        layout: even-vertical
+        panes:
+            - git fm && getComposer && exit
+            - cd vagrant
+            - cd vagrant
