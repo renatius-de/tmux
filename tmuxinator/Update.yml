@@ -1,7 +1,7 @@
 # ~/.tmuxinator/update.yml
 
 name: Update
-root: ~/repositories/cbn/update/
+root: ~/repositories/cbn/preisvergleich-update/
 
 windows:
     - Editor:
