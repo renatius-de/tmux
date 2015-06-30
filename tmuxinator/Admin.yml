@@ -1,0 +1,57 @@
+# ~/.tmuxinator/Preisvergleich.yml
+
+name: Preisvergleich
+root: ~/repositories/cbn/preisvergleich-admin/
+
+windows:
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim -c "call ConfigureiAdmin()"
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Vagrant:
+        layout: even-vertical
+        panes:
+            - git fm && getComposer && exit
+            - cd vagrant
+            - cd vagrant
