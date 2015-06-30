@@ -1,7 +1,7 @@
 # ~/.tmuxinator/Behat.yml
 
 name: BeHaT
-root: ~/repositories/cbn/behat/
+root: ~/repositories/cbn/preisvergleich-behat/
 
 windows:
     - Editor:
