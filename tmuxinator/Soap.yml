@@ -1,7 +1,7 @@
 # ~/.tmuxinator/Soap.yml
 
 name: Soap
-root: ~/repositories/cbn/soap/
+root: ~/repositories/cbn/preisvergleich-backend/
 
 windows:
     - Editor:
