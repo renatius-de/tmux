@@ -1,0 +1,57 @@
+# ~/.tmuxinator/ProfitMax.yml
+
+name: ProfitMax
+root: ~/repositories/cbn/profitmax/
+
+windows:
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim -c "call ConfigureProfitMax()"
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Vagrant:
+        layout: even-vertical
+        panes:
+            - git fm && getComposer && exit
+            - cd vagrant
+            - cd vagrant
