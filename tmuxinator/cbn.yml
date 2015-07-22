@@ -1,6 +1,6 @@
-# ~/.tmuxinator/Unbelievable_Machine.yml
+# ~/.tmuxinator/UnbelievableMachine.yml
 
-name: Unbelievable_Machine
+name: UnbelievableMachine
 root: ~/
 
 windows:
