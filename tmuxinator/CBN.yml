@@ -1,6 +1,6 @@
 # ~/.tmuxinator/UnbelievableMachine.yml
 
-name: UnbelievableMachine
+name: CBN
 root: ~/
 
 windows:
