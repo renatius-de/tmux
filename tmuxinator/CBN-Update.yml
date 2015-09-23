@@ -1,33 +1,33 @@
 # ~/.tmuxinator/update.yml
 
-name: Update
+name: CBN-Update
 root: ~/repositories/cbn/preisvergleich-update/
 
 windows:
     - Editor:
         layout: main-horizontal
         panes:
-            - vim -c "call ConfigureUpdate()"
+            - vim -c "call ConfigureCBNUpdate()"
             -
     - Editor:
         layout: main-horizontal
         panes:
-            -
-            -
-    - Editor:
-        layout: main-horizontal
-        panes:
-            -
+            - vim -c "call ConfigureCBNUpdate()"
             -
     - Editor:
         layout: main-horizontal
         panes:
-            -
+            - vim -c "call ConfigureCBNUpdate()"
             -
     - Editor:
         layout: main-horizontal
         panes:
+            - vim -c "call ConfigureCBNUpdate()"
             -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim -c "call ConfigureCBNUpdate()"
             -
     - Editor:
         layout: main-horizontal
