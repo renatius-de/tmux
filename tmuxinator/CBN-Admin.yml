@@ -1,28 +1,28 @@
 # ~/.tmuxinator/Preisvergleich.yml
 
-name: Preisvergleich
+name: CBN-Admin
 root: ~/repositories/cbn/preisvergleich-admin/
 
 windows:
     - Editor:
         layout: main-horizontal
         panes:
-            - vim -c "call ConfigureiAdmin()"
+            - vim -c "call ConfigureCBNAdmin()"
             -
     - Editor:
         layout: main-horizontal
         panes:
-            -
-            -
-    - Editor:
-        layout: main-horizontal
-        panes:
-            -
+            - vim -c "call ConfigureCBNAdmin()"
             -
     - Editor:
         layout: main-horizontal
         panes:
+            - vim -c "call ConfigureCBNAdmin()"
             -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim -c "call ConfigureCBNAdmin()"
             -
     - Editor:
         layout: main-horizontal
