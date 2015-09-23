@@ -1,0 +1,51 @@
+# ~/.tmuxinator/CBN-Vagrant.yml
+
+name: CBN-Vagrant
+root: ~/repositories/cbn/vagrant/
+
+windows:
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            -
+            -
