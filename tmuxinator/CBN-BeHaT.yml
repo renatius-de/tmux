@@ -1,13 +1,33 @@
 # ~/.tmuxinator/Behat.yml
 
-name: BeHaT
+name: CBN-BeHaT
 root: ~/repositories/cbn/preisvergleich-behat/
 
 windows:
     - Editor:
         layout: main-horizontal
         panes:
-            - vim -c "call ConfigureBehat()"
+            - vim -c "call ConfigureCBNBehat()"
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim -c "call ConfigureCBNBehat()"
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim -c "call ConfigureCBNBehat()"
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim -c "call ConfigureCBNBehat()"
+            -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim -c "call ConfigureCBNBehat()"
             -
     - Editor:
         layout: main-horizontal
@@ -29,27 +49,3 @@ windows:
         panes:
             -
             -
-    - Editor:
-        layout: main-horizontal
-        panes:
-            -
-            -
-    - Editor:
-        layout: main-horizontal
-        panes:
-            -
-            -
-    - Editor:
-        layout: main-horizontal
-        panes:
-            -
-            -
-    - Editor:
-        layout: main-horizontal
-        panes:
-            -
-            -
-    # - Shell:
-    #     layout: even-vertical
-    #     panes:
-    #         - git fm && getComposer && exit
