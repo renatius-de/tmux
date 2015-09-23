@@ -1,33 +1,33 @@
 # ~/.tmuxinator/Library.yml
 
-name: Library
+name: CBN-Library
 root: ~/repositories/cbn/preisvergleich-library/
 
 windows:
     - Editor:
         layout: main-horizontal
         panes:
-            - vim -c "call ConfigureLibrary()"
+            - vim -c "call ConfigureCBNLibrary()"
             -
     - Editor:
         layout: main-horizontal
         panes:
-            -
-            -
-    - Editor:
-        layout: main-horizontal
-        panes:
-            -
+            - vim -c "call ConfigureCBNLibrary()"
             -
     - Editor:
         layout: main-horizontal
         panes:
-            -
+            - vim -c "call ConfigureCBNLibrary()"
             -
     - Editor:
         layout: main-horizontal
         panes:
+            - vim -c "call ConfigureCBNLibrary()"
             -
+    - Editor:
+        layout: main-horizontal
+        panes:
+            - vim -c "call ConfigureCBNLibrary()"
             -
     - Editor:
         layout: main-horizontal
