@@ -27,7 +27,7 @@ windows:
     - Editor:
         layout: main-horizontal
         panes:
-            -
+            - vim -c "call ConfigureCBNAdmin()"
             -
     - Editor:
         layout: main-horizontal
@@ -53,5 +53,5 @@ windows:
         layout: even-vertical
         panes:
             - git fm && getComposer && exit
-            - cd vagrant
-            - cd vagrant
+            -
+            -
