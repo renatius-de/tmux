@@ -49,3 +49,7 @@ windows:
         panes:
             -
             -
+    - Vagrant:
+        layout: even-vertical
+        panes:
+            - git fm && getComposer && exit
