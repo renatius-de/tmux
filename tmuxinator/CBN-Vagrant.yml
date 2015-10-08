@@ -12,26 +12,6 @@ windows:
     - Editor:
         layout: main-horizontal
         panes:
-            - vim
-            -
-    - Editor:
-        layout: main-horizontal
-        panes:
-            - vim
-            -
-    - Editor:
-        layout: main-horizontal
-        panes:
-            - vim
-            -
-    - Editor:
-        layout: main-horizontal
-        panes:
-            -
-            -
-    - Editor:
-        layout: main-horizontal
-        panes:
             -
             -
     - Editor:
