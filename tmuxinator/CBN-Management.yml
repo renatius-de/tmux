@@ -1,4 +1,3 @@
-# ~/.tmuxinator/UnbelievableMachine.yml
 
 name: CBN-Management
 root: ~/
@@ -24,7 +23,12 @@ windows:
         panes:
             -
             -
-    - Xray:
+    - Update:
+        layout: even-vertical
+        panes:
+            -
+            -
+    - Puck:
         layout: even-vertical
         panes:
             -
@@ -34,7 +38,7 @@ windows:
         panes:
             -
             -
-    - Puck:
+    - Xray:
         layout: even-vertical
         panes:
             -
