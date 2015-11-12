@@ -7,7 +7,7 @@ windows:
     - Editor:
         layout: main-horizontal
         panes:
-            - vim -c "call ConfigureInvoicing()"
+            #- vim -c "call ConfigureInvoicing()"
             -
     - Editor:
         layout: main-horizontal
@@ -52,6 +52,6 @@ windows:
     - Vagrant:
         layout: even-vertical
         panes:
-            - git fm && getComposer && exit
+            #- git fm && getComposer && exit
             -
             -
