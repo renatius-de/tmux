@@ -1,13 +1,11 @@
-# ~/.tmuxinator/Invoicing.yml
-
-name: Invoicing
-root: ~/repositories/projects/invoicing
+name: Invoice
+root: ~/repositories/projects/invoice
 
 windows:
     - Editor:
         layout: main-horizontal
         panes:
-            #- vim -c "call ConfigureInvoicing()"
+            - vim -c "call ConfigureInvoice()"
             -
     - Editor:
         layout: main-horizontal
@@ -52,6 +50,6 @@ windows:
     - Vagrant:
         layout: even-vertical
         panes:
-            #- git fm && getComposer && exit
-            -
-            -
+            - git fm && getComposer && exit
+            - cd vagrant
+            - cd vagrant
