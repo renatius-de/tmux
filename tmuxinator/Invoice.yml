@@ -48,8 +48,7 @@ windows:
             -
             -
     - Vagrant:
-        layout: even-vertical
+        layout: main-horizontal
         panes:
-            - git fm && getComposer && exit
             - cd vagrant && vagrant up
             - cd vagrant
