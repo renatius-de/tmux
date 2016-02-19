@@ -52,6 +52,6 @@ windows:
     - Vagrant:
         layout: even-vertical
         panes:
-            - git fm && getComposer && exit
+            - git fm && APPLICATION_ENV=test getComposer && exit
             - cd vagrant
             - cd vagrant
