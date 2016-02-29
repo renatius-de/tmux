@@ -28,7 +28,7 @@ windows:
         panes:
             -
             -
-    - Puck:
+    - Amazon:
         layout: even-vertical
         panes:
             -
