@@ -18,7 +18,17 @@ windows:
         panes:
             -
             -
+    - Couche:
+        layout: even-vertical
+        panes:
+            -
+            -
     - Tools:
+        layout: even-vertical
+        panes:
+            -
+            -
+    - Frontend:
         layout: even-vertical
         panes:
             -
@@ -29,16 +39,6 @@ windows:
             -
             -
     - Amazon:
-        layout: even-vertical
-        panes:
-            -
-            -
-    - Fresno:
-        layout: even-vertical
-        panes:
-            -
-            -
-    - Xray:
         layout: even-vertical
         panes:
             -
