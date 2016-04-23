@@ -51,5 +51,5 @@ windows:
         layout: main-horizontal
         panes:
             - git fm && SYMFONY_ENV=test getComposer && exit
-            - cd vagrant && vagrant up
+            - cd vagrant
             - cd vagrant
