@@ -48,7 +48,7 @@ windows:
             -
             -
     - Vagrant:
-        layout: main-horizontal
+        layout: even-vertical
         panes:
             - git fm && SYMFONY_ENV=test getComposer && exit
             - cd vagrant
