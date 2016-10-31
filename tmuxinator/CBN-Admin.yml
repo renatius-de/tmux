@@ -1,7 +1,7 @@
 # ~/.tmuxinator/Preisvergleich.yml
 
 name: CBN-Admin
-root: ~/repositories/cbn/preisvergleich-admin/
+root: ~/git/cbn/preisvergleich-admin/
 
 windows:
     - Editor:

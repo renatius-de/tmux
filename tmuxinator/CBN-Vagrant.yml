@@ -1,7 +1,7 @@
 # ~/.tmuxinator/CBN-Vagrant.yml
 
 name: CBN-Vagrant
-root: ~/repositories/cbn/vagrant/
+root: ~/git/cbn/vagrant/
 
 windows:
     - Editor:

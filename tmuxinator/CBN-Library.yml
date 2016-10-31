@@ -1,7 +1,7 @@
 # ~/.tmuxinator/Library.yml
 
 name: CBN-Library
-root: ~/repositories/cbn/preisvergleich-library/
+root: ~/git/cbn/preisvergleich-library/
 
 windows:
     - Editor:

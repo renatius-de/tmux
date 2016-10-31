@@ -1,7 +1,7 @@
 # ~/.tmuxinator/Image.yml
 
 name: CBN-Image
-root: ~/repositories/cbn/preisvergleich-image/
+root: ~/git/cbn/preisvergleich-image/
 
 windows:
     - Editor:

@@ -1,7 +1,7 @@
 # ~/.tmuxinator/Profitmax.yml
 
 name: CBN-Profitmax
-root: ~/repositories/cbn/profitmax/
+root: ~/git/cbn/profitmax/
 
 windows:
     - Editor:
