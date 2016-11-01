@@ -48,34 +48,12 @@ caption always "%{= kG}[ %{G}%H %{g} ] %{g}[%{B} %Y-%m-%d %{W}%c %{g}] [%{= kw}%
 #}}}
 
 # {{{ start session
-chdir ${HOME}/repositories/frontend
-screen -t "frontend" 1
-screen -t "frontend" 2
-screen -t "frontend" 3
-screen -t "frontend" 4
-screen -t "frontend" 5
-
-# chdir ${HOME}/repositories/backend
-# screen -t "backend"  1
-# screen -t "backend"  2
-# screen -t "backend"  3
-# screen -t "backend"  4
-# screen -t "backend"  5
-
 chdir ${HOME}
-screen 10
-screen 11
-screen 12
-screen 13
-screen 14
-#}}}
-
-# {{{ select windows to start with
-select 5
-select 4
-select 3
-select 2
-select 1
+screen 1
+screen 2
+screen 3
+screen 4
+screen 5
 #}}}
 
 # vim: foldmethod=marker
