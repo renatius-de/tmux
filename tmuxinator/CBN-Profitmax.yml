@@ -44,11 +44,11 @@ windows:
         panes:
             -
             -
-    - Editor:
+    - Documentation:
         layout: main-horizontal
         panes:
-            -
-            -
+            - cd ~/git/cbn/documentation
+            - cd ~/git/cbn/documentation
     - Vagrant:
         layout: even-vertical
         panes:
