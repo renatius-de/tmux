@@ -1,7 +1,7 @@
 # ~/.tmuxinator/update.yml
 
 name: CBN-Update
-root: ~/git/cbn/preisvergleich-update/
+root: ~/git/cbn/update/
 
 windows:
     - Editor:
@@ -44,11 +44,11 @@ windows:
         panes:
             -
             -
-    - Documentation:
+    - Editor:
         layout: main-horizontal
         panes:
-            - cd ~/git/cbn/documentation
-            - cd ~/git/cbn/documentation
+            -
+            -
     - Vagrant:
         layout: even-vertical
         panes:

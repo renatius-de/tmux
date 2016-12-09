@@ -1,7 +1,7 @@
 # ~/.tmuxinator/Preisvergleich.yml
 
 name: CBN-Admin
-root: ~/git/cbn/preisvergleich-admin/
+root: ~/git/cbn/admin/
 
 windows:
     - Editor:
@@ -44,11 +44,11 @@ windows:
         panes:
             -
             -
-    - Documentation:
+    - Editor:
         layout: main-horizontal
         panes:
-            - cd ~/git/cbn/documentation
-            - cd ~/git/cbn/documentation
+            -
+            -
     - Vagrant:
         layout: even-vertical
         panes:

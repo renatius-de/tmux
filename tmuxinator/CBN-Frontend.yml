@@ -1,7 +1,7 @@
 # ~/.tmuxinator/Preisvergleich.yml
 
 name: CBN-Frontend
-root: ~/git/cbn/preisvergleich-frontend/
+root: ~/git/cbn/frontend/
 
 windows:
     - Editor:
@@ -44,11 +44,11 @@ windows:
         panes:
             -
             -
-    - Documentation:
+    - Editor:
         layout: main-horizontal
         panes:
-            - cd ~/git/cbn/documentation
-            - cd ~/git/cbn/documentation
+            -
+            -
     - Vagrant:
         layout: even-vertical
         panes:

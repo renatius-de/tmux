@@ -1,7 +1,7 @@
 # ~/.tmuxinator/Behat.yml
 
 name: CBN-BeHaT
-root: ~/git/cbn/preisvergleich-behat/
+root: ~/git/cbn/behat/
 
 windows:
     - Editor:
@@ -24,11 +24,6 @@ windows:
         panes:
             -
             -
-    - Documentation:
-        layout: main-horizontal
-        panes:
-            - cd ~/git/cbn/documentation
-            - cd ~/git/cbn/documentation
     - Vagrant:
         layout: even-vertical
         panes:
