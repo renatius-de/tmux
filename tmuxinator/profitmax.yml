@@ -1,0 +1,9 @@
+name: Main
+root: ~/
+
+windows:
+  - Shell:
+      layout: even-horizontal
+      panes:
+        -
+        -
