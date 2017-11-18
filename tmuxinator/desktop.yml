@@ -1,0 +1,7 @@
+name: Main
+root: ~/
+
+windows:
+    - System: htop
+    - FileManager: mc
+    - Shell:
