@@ -3,7 +3,7 @@ root: ~/
 
 windows:
   - Shell:
-      layout: even-horizontal
+      layout: even-vertical
       panes:
         -
         -
