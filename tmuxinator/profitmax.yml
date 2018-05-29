@@ -1,9 +1,27 @@
 name: Main
-root: ~/
 
 windows:
-  - Shell:
-      layout: even-vertical
-      panes:
-        -
-        -
+    - System: htop
+    - Library:
+        layout: main-horizontal
+        root: ~/git/profitmax/library
+        panes:
+            -
+    - Backend:
+        layout: main-horizontal
+        root: ~/git/profitmax/backend
+        panes:
+            -
+            - cd vagrant
+    - Frontend:
+        layout: main-horizontal
+        root: ~/git/profitmax/frontend
+        panes:
+            -
+            - cd vagrant
+    - Java:
+        layout: main-horizontal
+        root: ~/git/profitmax
+        panes:
+            -
+            -
