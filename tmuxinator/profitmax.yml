@@ -6,24 +6,24 @@ windows:
         layout: main-horizontal
         root: ~/git/profitmax/library
         panes:
-            - git sh
+            -
     - Backend:
         layout: main-horizontal
         root: ~/git/profitmax/backend
         panes:
-            - git sh
+            -
             - cd vagrant
             - cd vagrant
     - Frontend:
         layout: main-horizontal
         root: ~/git/profitmax/frontend
         panes:
-            - git sh
+            -
             - cd vagrant
             - cd vagrant
     - Java:
         layout: main-horizontal
         root: ~/git/profitmax
         panes:
-            - git sh
-            - git sh
+            -
+            -
