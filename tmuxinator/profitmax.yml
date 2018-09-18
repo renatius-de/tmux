@@ -9,7 +9,7 @@ windows:
             -
     - Backend:
         layout: main-horizontal
-        root: ~/git/profitmax/backend
+        root: ~/git/profitmax/soap
         panes:
             -
             - cd vagrant
