@@ -1,7 +1,7 @@
 name: Main
 
 windows:
-    - System: htop
+    - System: glances
     - Library:
         layout: main-horizontal
         root: ~/git/profitmax/library
