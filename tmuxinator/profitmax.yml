@@ -21,9 +21,25 @@ windows:
             -
             - cd vagrant
             - cd vagrant
+    - Profitmax:
+        layout: main-horizontal
+        root: ~/git/profitmax/profitmax
+        panes:
+            -
+            - cd vagrant
+            - cd vagrant
+    - CMS:
+        layout: main-horizontal
+        root: ~/git/profitmax/cms
+        panes:
+            -
+            - cd vagrant
+            - cd vagrant
     - Java:
         layout: main-horizontal
         root: ~/git/profitmax
         panes:
+            -
+            -
             -
             -
