@@ -4,42 +4,44 @@ windows:
     - System: glances
     - Library:
         layout: main-horizontal
-        root: ~/git/profitmax/library
+        root: ~/git/pricecompare/library
         panes:
             -
     - Backend:
         layout: main-horizontal
-        root: ~/git/profitmax/soap
+        root: ~/git/pricecompare/soap
         panes:
             -
             - cd vagrant
             - cd vagrant
     - Frontend:
         layout: main-horizontal
-        root: ~/git/profitmax/frontend
+        root: ~/git/pricecompare/frontend
         panes:
             -
             - cd vagrant
             - cd vagrant
     - Profitmax:
         layout: main-horizontal
-        root: ~/git/profitmax/profitmax
+        root: ~/git/pricecompare/profitmax
         panes:
             -
             - cd vagrant
             - cd vagrant
     - CMS:
         layout: main-horizontal
-        root: ~/git/profitmax/cms
+        root: ~/git/pricecompare/cms
         panes:
             -
             - cd vagrant
             - cd vagrant
     - Java:
         layout: main-horizontal
-        root: ~/git/profitmax
+        root: ~/git/pricecompare
         panes:
             -
             -
-            -
+    - Software:
+        panes:
+            - cd ~/git/software/netbeans
             -
