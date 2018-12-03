@@ -1,7 +1,11 @@
 name: Main
 
 windows:
-    - System: glances
+    - System:
+        layout: main-horizontal
+        panes:
+            - htop
+            - glances
     - Library:
         layout: main-horizontal
         root: ~/git/pricecompare/library
@@ -35,6 +39,11 @@ windows:
             -
             - cd vagrant
             - cd vagrant
+    - BehaT:
+        layout: main-horizontal
+        root: ~/git/pricecompare/behat
+        panes:
+            -
     - Java:
         layout: main-horizontal
         root: ~/git/pricecompare
@@ -43,5 +52,5 @@ windows:
             -
     - Software:
         panes:
-            - cd ~/git/software/netbeans
+            -
             -
