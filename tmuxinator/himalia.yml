@@ -2,7 +2,10 @@ name: Main
 root: ~/
 
 windows:
-    - System: glances
+    - System:
+        panes:
+            - htop
+            - glances
     - FileManager: mc
     - EMail: mutt
     - IRC: weechat
