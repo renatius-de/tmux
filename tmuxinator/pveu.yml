@@ -5,7 +5,6 @@ windows:
         layout: main-horizontal
         panes:
             - htop
-            - glances
     - Library:
         layout: main-horizontal
         root: ~/git/pricecompare/library
