@@ -24,9 +24,9 @@ windows:
             -
             - cd vagrant
             - cd vagrant
-    - Profitmax:
+    - Business:
         layout: main-horizontal
-        root: ~/git/pricecompare/profitmax
+        root: ~/git/pricecompare/business
         panes:
             -
             - cd vagrant
