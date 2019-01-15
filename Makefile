@@ -1,13 +1,25 @@
 ROOT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 
+PLUGIN_DIRECTORY = plugins
+
+.PHONY = install
+
 clean:
 	rm -f ${HOME}/.screenrc
 	rm -f ${HOME}/.tmux.conf
-	rm -fr plugins
+	rm -fr $(PLUGIN_DIRECTORY)
 
-install:
+install: install_repos
 	ln -snf ${ROOT_DIR}/screenrc ${HOME}/.screenrc
 	ln -snf ${ROOT_DIR}/tmux.conf ${HOME}/.tmux.conf
 	ln -snf ${ROOT_DIR}/tmuxinator ${HOME}/.tmuxinator
-	mkdir -p plugins
-	git clone https://github.com/tmux-plugins/tpm plugins/tpm
+
+install_repos: | $(PLUGIN_DIRECTORY)/tpm
+	mkdir -p $(PLUGIN_DIRECTORY)
+
+$(PLUGIN_DIRECTORY)/tpm:
+	git clone https://github.com/tmux-plugins/tpm $(PLUGIN_DIRECTORY)/tpm
+
+update: install_repos
+	git --work-tree=$(PLUGIN_DIRECTORY)/tpm checkout -f
+	git --work-tree=$(PLUGIN_DIRECTORY)/tpm pull
