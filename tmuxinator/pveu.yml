@@ -7,45 +7,45 @@ windows:
             - htop
     - Library:
         layout: main-horizontal
-        root: ~/git/pricecompare/library
+        root: ~/git/pveu/library
         panes:
             -
     - Backend:
         layout: main-horizontal
-        root: ~/git/pricecompare/soap
+        root: ~/git/pveu/soap
         panes:
             -
             - cd vagrant
             - cd vagrant
     - Frontend:
         layout: main-horizontal
-        root: ~/git/pricecompare/frontend
+        root: ~/git/pveu/frontend
         panes:
             -
             - cd vagrant
             - cd vagrant
     - Business:
         layout: main-horizontal
-        root: ~/git/pricecompare/business
+        root: ~/git/pveu/business
         panes:
             -
             - cd vagrant
             - cd vagrant
     - CMS:
         layout: main-horizontal
-        root: ~/git/pricecompare/cms
+        root: ~/git/pveu/cms
         panes:
             -
             - cd vagrant
             - cd vagrant
     - BehaT:
         layout: main-horizontal
-        root: ~/git/pricecompare/behat
+        root: ~/git/pveu/behat
         panes:
             -
     - Java:
         layout: main-horizontal
-        root: ~/git/pricecompare
+        root: ~/git/pveu
         panes:
             -
             -
