@@ -10,7 +10,7 @@ windows:
         root: ~/git/pveu/library
         panes:
             -
-    - Backend:
+    - Soap:
         layout: main-horizontal
         root: ~/git/pveu/soap
         panes:
