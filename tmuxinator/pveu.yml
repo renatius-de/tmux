@@ -49,7 +49,8 @@ windows:
         panes:
             -
             -
-    - Software:
+    - Terminal:
+        root: ~
         panes:
             -
             -
