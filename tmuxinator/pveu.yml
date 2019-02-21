@@ -50,6 +50,7 @@ windows:
             -
             -
     - Terminal:
+        layout: main-horizontal
         root: ~
         panes:
             -
