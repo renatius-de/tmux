@@ -2,9 +2,6 @@ name: Main
 root: ~/
 
 windows:
-    - System:
-        panes:
-            - htop
-            - glances
-    - FileManager: mc
-    - Shell:
+  - System: htop
+  - FileManager: mc
+  - Shell:
