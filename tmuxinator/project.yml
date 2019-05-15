@@ -1,11 +1,10 @@
-name: <%= @settings["name"] %>
-root: <%= @settings["root"] %>
+name: <%= @settings["name"] ? @settings["name"] : "Shell" %>
+root: <%= @settings["root"] ? @settings["root"] : "~" %>
 
 windows:
-  - <%= @settings["name"] %>:
-    layout: main-horizontal
-    panes:
-      -
-      -
-      -
-      -
+    - <%= @settings["name"] ? @settings["name"] : "Shell" %>:
+        panes:
+            -
+            -
+            -
+            -
