@@ -1,10 +1,12 @@
-name: <%= @settings["name"] ? @settings["name"] : "Shell" %>
-root: <%= @settings["root"] ? @settings["root"] : "~" %>
+name: <%= @settings["name"] ? @settings["name"].capitalize : "Shell" %>
+root: <%= @settings["name"] ? "~/git/pveu/" + @settings["name"].to_s : "~" %>
 
 windows:
-    - <%= @settings["name"] ? @settings["name"] : "Shell" %>:
+    - <%= @settings["name"] ? @settings["name"].capitalize + " Git": "Shell" %>:
         panes:
             -
             -
-            -
-            -
+    - <%= @settings["name"] ? @settings["name"].capitalize + " Vagrant": "Shell" %>:
+        panes:
+            - test -d vagrant && cd vagrant ; clear
+            - test -d vagrant && cd vagrant ; clear
