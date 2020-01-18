@@ -1,5 +1,5 @@
 name: <%= @settings["name"] ? @settings["name"].capitalize : "Shell" %>
-root: <%= @settings["name"] ? "~/git/pveu/" + @settings["name"].to_s : "~" %>
+root: <%= @settings["name"] ? "~/git/flavia/" + @settings["name"].to_s : "~" %>
 
 windows:
     - Shell:
