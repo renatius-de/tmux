@@ -28,4 +28,4 @@ $(PLUGIN_DIRECTORY)/tpm:
 	git clone https://github.com/tmux-plugins/tpm $(PLUGIN_DIRECTORY)/tpm
 
 ${HOME}/.tmux:
-	ln -snf $(ROOT_DIR) ${HOME)/.tmux
+	ln -snf ${ROOT_DIR} ${HOME}/.tmux
